@@ -1,0 +1,19 @@
+/* input{
+    display: block;
+} */
+textarea{
+    resize: none;
+}
+form{
+    border: 5px solid #103;
+    text-align: center;
+    width: 30%;
+    margin: 20px auto;
+    background: rgb(8, 179, 139);
+}
+select{
+    margin: 20px 0;
+}
+.form_info{
+    margin: 20px 0;
+}

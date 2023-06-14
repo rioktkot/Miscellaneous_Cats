@@ -1,0 +1,35 @@
+*{
+    border: 1px solid black ;
+}
+p{
+    color: blueviolet;
+        font-size: 30px;
+        background-color: black;
+}
+h1{
+    color: blue ;
+} 
+.text1 {
+    color: aquamarine;
+}
+.text2{
+    color: brown;
+}
+.text3{
+    color: blueviolet;
+}
+#text{
+    color: blanchedalmond;
+}
+ul li {
+    color: brown;
+}
+p>i{
+color: antiquewhite;
+}
+input [type="text"]{
+color: blue;
+}
+b,em,del {
+color: blueviolet;
+}

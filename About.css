@@ -1,0 +1,43 @@
+div{
+    box-sizing: border-box;
+    padding: 23px;
+    margin: auto auto;
+    width: 300px;
+    border-style: double;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 10px;
+}
+h1{
+    margin: 20px;
+    text-shadow: 5px 5px 5px #ff0000;
+}
+body{
+    background: yellowgreen;
+}
+p{
+    text-shadow: 1px 1px 3px #ff0000,1px 1px 5px #0000ff;
+}
+footer{
+    /* height: 200px; */
+    border: 1px solid #000;
+    background-color: #000;
+    opacity: 0.9;
+}
+nav a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+nav a:hover{
+    color: #000;
+    background-color: #fff;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

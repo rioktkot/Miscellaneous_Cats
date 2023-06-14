@@ -1,0 +1,35 @@
+/* div{
+    width: 300px;
+    height: 200px;
+    border: 5px solid blue ;
+    margin: 60px ;
+} */
+
+*{
+    margin: 0;
+}
+
+
+.box2{
+    width: 300px;
+    height: 200px;
+    border: 5px solid blueviolet ;
+    margin: auto ;
+    padding: 25px 15px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+p{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+span{
+    border: 3px solid blue;
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    margin: 10px 0px;
+}
