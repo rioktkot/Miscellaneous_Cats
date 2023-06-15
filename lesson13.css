@@ -32,6 +32,7 @@ body{
     width: 1200px;
     border: 1px solid white;
     border-radius: 20px;
+    margin: 0 auto;
 }
 section{
     margin: 10px;
