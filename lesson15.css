@@ -1,0 +1,37 @@
+/* div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+} */
+ul{
+    list-style-type: none;
+}
+ul li::before{
+    content: "" ;
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    background: greenyellow;
+    position: absolute;
+    left:-20px;
+    top: 4px;
+    border-radius: 50px;
+}
+ul li{
+    position: relative;
+}
+p::first-letter{
+    font-size: 50px;
+    color: aquamarine;
+}
+p::first-line{
+    color: blue;
+}
+/* input[type="text"]:hover {
+background: yellow;
+border: 1px solid red;
+}
+input[type="submit"]:hover{
+    border: 1px solid black;
+    background: green;
+} */
